@@ -6,8 +6,8 @@ import { StyleSheet } from 'react-native';
 export const Default = () => {
 
     return(
-        <View>
-            <Text>This is your default page.</Text>
+        <View style={style_sheet.default_container}>
+            <Text style={style_sheet.default_text}>This is your default page.</Text>
         </View>
     );
 }
